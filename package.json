@@ -1,0 +1,23 @@
+{
+  "name": "SISTEMA-JS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/carlos-augusto-carneiro/SISTEMA-JS.git",
+  "license": "MIT",
+  "dependencies": {
+    "@adminjs/express": "^5.0.0",
+    "adminjs": "^6.0.4",
+    "express": "^4.18.1",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.17.3",
+    "tslib": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "prettier": "2.7.1",
+    "sucrase": "^3.24.0"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/server.js"
+  }
+}
